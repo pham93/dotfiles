@@ -2,7 +2,6 @@
   "window.titleBarStyle": "custom",
   "window.menuBarVisibility": "compact",
   "window.customTitleBarVisibility": "auto",
-
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
@@ -15,12 +14,18 @@
     "tmux": {
       "path": "tmux",
       "icon": "terminal-tmux",
-      "args": ["new-session", "-A", "-s", "vscode:${workspaceFolderBasename}"]
+      "args": [
+        "new-session",
+        "-A",
+        "-s",
+        "vscode:${workspaceFolderBasename}"
+      ]
     }
   },
   "terminal.integrated.defaultProfile.linux": "tmux",
   "workbench.statusBar.visible": false,
   "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
   "workbench.iconTheme": "eq-material-theme-icons-darker",
   "workbench.colorTheme": "Aura Dracula Spirit",
   "workbench.productIconTheme": "fluent-icons",
@@ -38,7 +43,6 @@
   "workbench.tree.renderIndentGuides": "none",
   "workbench.layoutControl.enabled": true,
   "workbench.tree.indent": 12,
-
   "editor.lineNumbers": "relative",
   "editor.fontSize": 13,
   "editor.fontFamily": "JetBrainsMono Nerd Font",
@@ -77,13 +81,10 @@
       }
     ]
   },
-
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
-
   "breadcrumbs.enabled": false,
-
   "apc.font.family": "GeistMono Nerd Font",
   "apc.monospace.font.family": "JetBrainsMono Nerd Font",
   "apc.electron": {
@@ -117,33 +118,26 @@
     "file:///home/loc/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js",
     "file:///home/loc/.vscode/custom-css.css"
   ],
-
   "apc.stylesheet": {
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
     ".sidebar": "border: none !important",
     ".tabs-border-bottom": "--tabs-border-bottom-color: #61ffca !important",
     ".title-label": "display: none !important",
-
     ".quick-input-widget": "top: 40vh !important;",
     ".quick-input-widget:has(.action-label[aria-label='Search keybindings'])": "opacity: 0 !important;",
     ".quick-input-widget:has(.action-label[aria-label='Search keybindings']):has(.monaco-list-row)": "opacity: 1 !important;"
   },
-
   "extensions.ignoreRecommendations": true,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
-
   "vscode-neovim.neovimExecutablePaths.linux": "/opt/nvim-linux64/bin/nvim",
-
   "catppuccin-icons.hidesExplorerArrows": true,
-
   "animations.Active": "None",
   "animations.Enabled": true,
   "animations.Command-Palette": "Scale",
   "animations.Install-Method": "Apc Customize UI++",
   "animations.Auto-Install": true,
-
   "whichkey.delay": 350,
   "whichkey.bindingOverrides": [
     {
@@ -161,19 +155,25 @@
           "name": "Toggle Main SideBar",
           "type": "commands",
           "key": "q",
-          "commands": ["workbench.action.toggleSidebarVisibility"]
+          "commands": [
+            "workbench.action.toggleSidebarVisibility"
+          ]
         },
         {
           "name": "Toggle Secondary SideBar",
           "type": "commands",
           "key": "e",
-          "commands": ["workbench.action.toggleAuxiliaryBar"]
+          "commands": [
+            "workbench.action.toggleAuxiliaryBar"
+          ]
         },
         {
           "name": "Toggle Below Panel",
           "type": "commands",
           "key": "s",
-          "commands": ["workbench.action.togglePanel"]
+          "commands": [
+            "workbench.action.togglePanel"
+          ]
         },
         {
           "name": "Split vertically",
@@ -214,7 +214,9 @@
       "keys": "t",
       "type": "commands",
       "name": "Toggle terminal",
-      "commands": ["workbench.action.terminal.focus"]
+      "commands": [
+        "workbench.action.terminal.focus"
+      ]
     },
     {
       "keys": "c",
@@ -245,7 +247,6 @@
       "type": "command",
       "command": "workbench.action.experimental.quickTextSearch"
     },
-
     {
       "keys": "s.a",
       "name": "Search and &",
@@ -299,7 +300,10 @@
     }
   ],
   "errorLens.delay": 1000,
-  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning"
+  ],
   "errorLens.messageEnabled": true,
   "errorLens.gutterIconSet": "squareRounded",
   "errorLens.gutterIconsEnabled": true,
