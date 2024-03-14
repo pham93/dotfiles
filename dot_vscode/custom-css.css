@@ -1,0 +1,154 @@
+tab::before {
+  display: block; }
+
+.tab:nth-child(1)::before {
+  content: "1"; }
+
+.tab:nth-child(2)::before {
+  content: "2"; }
+
+.tab:nth-child(3)::before {
+  content: "3"; }
+
+.tab:nth-child(4)::before {
+  content: "4"; }
+
+.tab:nth-child(5)::before {
+  content: "5"; }
+
+.tab:nth-child(6)::before {
+  content: "6"; }
+
+.tab:nth-child(7)::before {
+  content: "7"; }
+
+.tab:nth-child(8)::before {
+  content: "8"; }
+
+.tab:nth-child(9)::before {
+  content: "9"; }
+
+.tab:nth-child(10)::before {
+  content: "10"; }
+
+.tab:nth-child(11)::before {
+  content: "11"; }
+
+.tab:nth-child(12)::before {
+  content: "12"; }
+
+.tab:nth-child(13)::before {
+  content: "13"; }
+
+.tab:nth-child(14)::before {
+  content: "14"; }
+
+.tab:nth-child(15)::before {
+  content: "15"; }
+
+.tab:nth-child(16)::before {
+  content: "16"; }
+
+.tab:nth-child(17)::before {
+  content: "17"; }
+
+.tab:nth-child(18)::before {
+  content: "18"; }
+
+.tab:nth-child(19)::before {
+  content: "19"; }
+
+.tab:nth-child(20)::before {
+  content: "20"; }
+
+.tab:nth-child(21)::before {
+  content: "21"; }
+
+.tab:nth-child(22)::before {
+  content: "22"; }
+
+.tab:nth-child(23)::before {
+  content: "23"; }
+
+.tab:nth-child(24)::before {
+  content: "24"; }
+
+.tab:nth-child(25)::before {
+  content: "25"; }
+
+.tab:nth-child(26)::before {
+  content: "26"; }
+
+.tab:nth-child(27)::before {
+  content: "27"; }
+
+.tab:nth-child(28)::before {
+  content: "28"; }
+
+.tab:nth-child(29)::before {
+  content: "29"; }
+
+.tab:nth-child(30)::before {
+  content: "30"; }
+
+.tab:nth-child(31)::before {
+  content: "31"; }
+
+.tab:nth-child(32)::before {
+  content: "32"; }
+
+.tab:nth-child(33)::before {
+  content: "33"; }
+
+.tab:nth-child(34)::before {
+  content: "34"; }
+
+.tab:nth-child(35)::before {
+  content: "35"; }
+
+.tab:nth-child(36)::before {
+  content: "36"; }
+
+.tab:nth-child(37)::before {
+  content: "37"; }
+
+.tab:nth-child(38)::before {
+  content: "38"; }
+
+.tab:nth-child(39)::before {
+  content: "39"; }
+
+.tab:nth-child(40)::before {
+  content: "40"; }
+
+.tab:nth-child(41)::before {
+  content: "41"; }
+
+.tab:nth-child(42)::before {
+  content: "42"; }
+
+.tab:nth-child(43)::before {
+  content: "43"; }
+
+.tab:nth-child(44)::before {
+  content: "44"; }
+
+.tab:nth-child(45)::before {
+  content: "45"; }
+
+.tab:nth-child(46)::before {
+  content: "46"; }
+
+.tab:nth-child(47)::before {
+  content: "47"; }
+
+.tab:nth-child(48)::before {
+  content: "48"; }
+
+.tab:nth-child(49)::before {
+  content: "49"; }
+
+.tab:nth-child(50)::before {
+  content: "50"; }
+
+/*# sourceMappingURL=custom-css.css.map */
