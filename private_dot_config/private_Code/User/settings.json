@@ -1,0 +1,308 @@
+{
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "compact",
+  "window.customTitleBarVisibility": "auto",
+
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "zsh"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux",
+      "args": ["new-session", "-A", "-s", "vscode:${workspaceFolderBasename}"]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "tmux",
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "top",
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "workbench.colorTheme": "Aura Dracula Spirit",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#1cebf6",
+    "editorSuggestWidget.selectedBackground": "#231739",
+    "editorSuggestWidget.selectedForeground": "#c7b3ed",
+    "sideBar.background": "#140e1a",
+    "list.activeSelectionBackground": "#231739",
+    "list.hoverBackground": "#231739",
+    "tab.activeBorderTop": "#1cebf6",
+    "titleBar.activeBackground": "#090303",
+    "editorLineNumber.activeForeground": "#1cebf6a7"
+  },
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.layoutControl.enabled": true,
+  "workbench.tree.indent": 12,
+
+  "editor.lineNumbers": "relative",
+  "editor.fontSize": 13,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.renderWhitespace": "all",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.renderLineHighlight": "none",
+  "editor.matchBrackets": "never",
+  "editor.showFoldingControls": "never",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.overviewRulerBorder": false,
+  "editor.detectIndentation": false,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.8,
+  "editor.codeLensFontSize": 8,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "entity.name.type",
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      }
+    ]
+  },
+
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+
+  "breadcrumbs.enabled": false,
+
+  "apc.font.family": "GeistMono Nerd Font",
+  "apc.monospace.font.family": "JetBrainsMono Nerd Font",
+  "apc.electron": {
+    "titleBarStyle": "hidden"
+  },
+  "apc.header": {
+    "height": 42
+  },
+  "apc.statusBar": {
+    "position": "bottom"
+  },
+  "apc.listRow": {
+    "lists": [
+      "customview-tree",
+      "results",
+      "open-editors",
+      "explorer-folders-view",
+      "scm-view",
+      "debug-view-content",
+      "debug-breakpoints",
+      "tree"
+    ],
+    "parts": {
+      "tree": {
+        "height": 36
+      }
+    },
+    "height": 28
+  },
+  "apc.imports": [
+    "file:///home/loc/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js",
+    "file:///home/loc/.vscode/custom-css.css"
+  ],
+
+  "apc.stylesheet": {
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".sidebar": "border: none !important",
+    ".tabs-border-bottom": "--tabs-border-bottom-color: #61ffca !important",
+    ".title-label": "display: none !important",
+
+    ".quick-input-widget": "top: 40vh !important;",
+    ".quick-input-widget:has(.action-label[aria-label='Search keybindings'])": "opacity: 0 !important;",
+    ".quick-input-widget:has(.action-label[aria-label='Search keybindings']):has(.monaco-list-row)": "opacity: 1 !important;"
+  },
+
+  "extensions.ignoreRecommendations": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  "vscode-neovim.neovimExecutablePaths.linux": "/opt/nvim-linux64/bin/nvim",
+
+  "catppuccin-icons.hidesExplorerArrows": true,
+
+  "animations.Active": "None",
+  "animations.Enabled": true,
+  "animations.Command-Palette": "Scale",
+  "animations.Install-Method": "Apc Customize UI++",
+  "animations.Auto-Install": true,
+
+  "whichkey.delay": 350,
+  "whichkey.bindingOverrides": [
+    {
+      "keys": "l",
+      "name": "Lookup file",
+      "type": "command",
+      "command": "workbench.action.quickOpen"
+    },
+    {
+      "keys": "w",
+      "name": "Window",
+      "type": "bindings",
+      "bindings": [
+        {
+          "name": "Toggle Main SideBar",
+          "type": "commands",
+          "key": "q",
+          "commands": ["workbench.action.toggleSidebarVisibility"]
+        },
+        {
+          "name": "Toggle Secondary SideBar",
+          "type": "commands",
+          "key": "e",
+          "commands": ["workbench.action.toggleAuxiliaryBar"]
+        },
+        {
+          "name": "Toggle Below Panel",
+          "type": "commands",
+          "key": "s",
+          "commands": ["workbench.action.togglePanel"]
+        },
+        {
+          "name": "Split vertically",
+          "key": "v",
+          "command": "workbench.action.splitEditor"
+        },
+        {
+          "name": "Split horizontally",
+          "key": "h",
+          "command": "workbench.action.splitEditorDown"
+        },
+        {
+          "name": "Close editor",
+          "key": "c",
+          "command": "workbench.action.closeGroup"
+        },
+        {
+          "key": "w",
+          "name": "Expand",
+          "type": "command",
+          "command": "workbench.action.toggleMaximizeEditorGroup"
+        },
+        {
+          "key": "s",
+          "name": "Toggle Status Bar",
+          "type": "command",
+          "command": "workbench.action.toggleStatusbarVisibility"
+        },
+        {
+          "key": "r",
+          "name": "Reload window",
+          "type": "command",
+          "command": "workbench.action.reloadWindow"
+        }
+      ]
+    },
+    {
+      "keys": "t",
+      "type": "commands",
+      "name": "Toggle terminal",
+      "commands": ["workbench.action.terminal.focus"]
+    },
+    {
+      "keys": "c",
+      "name": "Clipboard",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "c",
+          "name": "Copy to clipboard",
+          "command": "editor.action.clipboardCopyAction"
+        },
+        {
+          "key": "v",
+          "name": "Paste from clipboard",
+          "command": "editor.action.clipboardPasteAction"
+        }
+      ]
+    },
+    {
+      "keys": "0",
+      "name": "Focus on sidebar",
+      "type": "command",
+      "command": "workbench.action.focusSideBar"
+    },
+    {
+      "keys": "s.q",
+      "name": "Quick search",
+      "type": "command",
+      "command": "workbench.action.experimental.quickTextSearch"
+    },
+
+    {
+      "keys": "s.a",
+      "name": "Search and &",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "r",
+          "name": "replace",
+          "type": "command",
+          "command": "editor.action.startFindReplaceAction"
+        }
+      ]
+    },
+    {
+      "keys": "g.t",
+      "name": "Git To",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "d",
+          "name": "Open diff",
+          "type": "command",
+          "command": "git.openChange"
+        },
+        {
+          "key": "f",
+          "name": "Open file",
+          "type": "command",
+          "command": "git.openFile"
+        }
+      ]
+    },
+    {
+      "keys": "e",
+      "name": "Show tree/explorer view",
+      "type": "conditional",
+      "bindings": [
+        {
+          "key": "",
+          "name": "Open explorer",
+          "type": "command",
+          "command": "workbench.view.explorer"
+        },
+        {
+          "key": "when:sideBarVisible && explorerViewletVisible",
+          "name": "Hide explorer",
+          "type": "command",
+          "command": "workbench.action.toggleSidebarVisibility"
+        }
+      ]
+    }
+  ],
+  "errorLens.delay": 1000,
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+  "errorLens.messageEnabled": true,
+  "errorLens.gutterIconSet": "squareRounded",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.messageBackgroundMode": "message",
+  "security.workspace.trust.untrustedFiles": "open"
+}

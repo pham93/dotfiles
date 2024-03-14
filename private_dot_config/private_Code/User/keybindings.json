@@ -1,0 +1,182 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "command": "vscode-neovim.compositeEscape2",
+    "key": "k",
+    "when": "neovim.mode == insert && editorTextFocus",
+    "args": "k"
+  },
+  {
+    "command": "vscode-neovim.compositeEscape1",
+    "key": "j",
+    "when": "neovim.mode == insert && editorTextFocus",
+    "args": "j"
+  },
+
+  {
+    "command": "whichkey.show",
+    "key": "space",
+    "when": "(neovim.mode == normal || neovim.mode == visual) && editorTextFocus || (sideBarFocus && !inputFocus) || (auxiliaryBarFocus && !inputFocus) || (workbenchState && !inputFocus)"
+  },
+  {
+    "command": "whichkey.show",
+    "key": "ctrl+shift+space"
+  },
+
+  {
+    "key": "escape",
+    "command": "list.focusAnyFirst",
+    "when": "(auxiliaryBarFocus || sideBarFocus)"
+  },
+  // navigate left
+  {
+    "command": "workbench.action.focusSideBar",
+    "key": "ctrl+h",
+    "when": "activeGroupEditorIndex == 1 && sideBarVisible"
+  },
+  {
+    "command": "workbench.action.focusNextGroup",
+    "key": "ctrl+h",
+    "when": "sideBarFocus"
+  },
+  {
+    "command": "workbench.action.focusPreviousGroup",
+    "key": "ctrl+h",
+    "when": "activeGroupEditorIndex > 1"
+  },
+  {
+    "command": "workbench.action.focusActiveEditorGroup",
+    "key": "ctrl+h",
+    "when": "auxiliaryBarFocus"
+  },
+  {
+    "key": "shift+r",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "neovim.mode != insert && editorTextFocus"
+  },
+
+  // navigate right
+  {
+    "command": "workbench.action.focusSideBar",
+    "key": "ctrl+l",
+    "when": "activeEditorGroupLast && sideBarVisible"
+  },
+  {
+    "command": "workbench.action.focusNextGroup",
+    "key": "ctrl+l",
+    "when": "activeEditorGroupLast == false && editorTextFocus"
+  },
+  {
+    "command": "workbench.action.focusFirstEditorGroup",
+    "key": "ctrl+l",
+    "when": "sideBarFocus"
+  },
+  {
+    "command": "workbench.action.focusAuxiliaryBar",
+    "key": "ctrl+l",
+    "when": "editorTextFocus && activeEditorGroupLast && activeAuxiliary"
+  },
+
+  // navigating up
+  {
+    "command": "workbench.action.focusActiveEditorGroup",
+    "key": "ctrl+k",
+    "when": "panelFocus"
+  },
+  // navigate down
+  {
+    "command": "workbench.action.focusPanel",
+    "key": "ctrl+j",
+    "when": "editorTextFocus && panelVisible"
+  },
+  {
+    "command": "workbench.action.openSettingsJson",
+    "key": "ctrl+,"
+  },
+  {
+    "key": "ctrl+shift+f12",
+    "command": "workbench.action.toggleDevTools"
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "alt+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "alt+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "alt+j",
+    "command": "selectNextCodeAction",
+    "when": "codeActionMenuVisible"
+  },
+  {
+    "key": "alt+k",
+    "command": "selectPrevCodeAction",
+    "when": "codeActionMenuVisible"
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly && !codeActionMenuVisible && !suggestWidgetVisible"
+  },
+  {
+    "key": "alt+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly && !codeActionMenuVisible && !suggestWidgetVisible"
+  },
+  {
+    "key": "e",
+    "command": "whichkey.triggerKey",
+    "args": {
+      "key": "e",
+      "when": "sideBarVisible && explorerViewletVisible"
+    },
+    "when": "whichkeyVisible && sideBarVisible && explorerViewletVisible"
+  },
+  {
+    "key": "s",
+    "command": "whichkey.triggerKey",
+    "args": {
+      "key": "s",
+      "when": "activeAuxiliary"
+    },
+    "when": "whichkeyVisible && activeAuxiliary"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.togglePanel",
+    "when": "panelFocus"
+  },
+  {
+    "key": "alt+[ArrowLeft]",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "alt+[ArrowRight]",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "neovim.mode == insert && editorTextFocus"
+  }
+]
