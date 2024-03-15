@@ -14,12 +14,7 @@
     "tmux": {
       "path": "tmux",
       "icon": "terminal-tmux",
-      "args": [
-        "new-session",
-        "-A",
-        "-s",
-        "vscode:${workspaceFolderBasename}"
-      ]
+      "args": ["new-session", "-A", "-s", "vscode:${workspaceFolderBasename}"]
     }
   },
   "terminal.integrated.defaultProfile.linux": "tmux",
@@ -84,7 +79,6 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
-  "breadcrumbs.enabled": false,
   "apc.font.family": "GeistMono Nerd Font",
   "apc.monospace.font.family": "JetBrainsMono Nerd Font",
   "apc.electron": {
@@ -154,40 +148,45 @@
         {
           "name": "Toggle Main SideBar",
           "type": "commands",
-          "key": "q",
-          "commands": [
-            "workbench.action.toggleSidebarVisibility"
-          ]
-        },
-        {
-          "name": "Toggle Secondary SideBar",
-          "type": "commands",
           "key": "e",
           "commands": [
-            "workbench.action.toggleAuxiliaryBar"
+            "workbench.action.toggleMaximizeEditorGroup",
+            "workbench.action.toggleSidebarVisibility"
           ]
         },
         {
           "name": "Toggle Below Panel",
           "type": "commands",
           "key": "s",
-          "commands": [
-            "workbench.action.togglePanel"
-          ]
+          "commands": ["workbench.action.togglePanel"]
         },
         {
-          "name": "Split vertically",
-          "key": "v",
-          "command": "workbench.action.splitEditor"
-        },
-        {
-          "name": "Split horizontally",
+          "name": "Move to left group",
+          "type": "commands",
           "key": "h",
-          "command": "workbench.action.splitEditorDown"
+          "commands": ["workbench.action.moveEditorToLeftGroup"]
+        },
+        {
+          "name": "Move editor to right group",
+          "type": "commands",
+          "key": "l",
+          "commands": ["workbench.action.moveEditorToRightGroup"]
+        },
+        {
+          "name": "Move to down group",
+          "type": "commands",
+          "key": "j",
+          "commands": ["workbench.action.moveEditorToBelowGroup"]
+        },
+        {
+          "name": "Move to up group",
+          "type": "commands",
+          "key": "k",
+          "commands": ["workbench.action.moveEditorToAboveGroup"]
         },
         {
           "name": "Close editor",
-          "key": "c",
+          "key": "q",
           "command": "workbench.action.closeGroup"
         },
         {
@@ -198,7 +197,7 @@
         },
         {
           "key": "s",
-          "name": "Toggle Status Bar",
+          "name": "Toggle Panel",
           "type": "command",
           "command": "workbench.action.toggleStatusbarVisibility"
         },
@@ -214,9 +213,7 @@
       "keys": "t",
       "type": "commands",
       "name": "Toggle terminal",
-      "commands": [
-        "workbench.action.terminal.focus"
-      ]
+      "commands": ["workbench.action.terminal.focus"]
     },
     {
       "keys": "c",
@@ -261,23 +258,22 @@
       ]
     },
     {
-      "keys": "g.t",
-      "name": "Git To",
-      "type": "bindings",
-      "bindings": [
-        {
-          "key": "d",
-          "name": "Open diff",
-          "type": "command",
-          "command": "git.openChange"
-        },
-        {
-          "key": "f",
-          "name": "Open file",
-          "type": "command",
-          "command": "git.openFile"
-        }
-      ]
+      "keys": "F",
+      "name": "Git To File",
+      "type": "command",
+      "command": "git.openFile"
+    },
+    {
+      "keys": "D",
+      "name": "Git To Diff",
+      "type": "command",
+      "command": "git.openChange"
+    },
+    {
+      "keys": "L",
+      "name": "Open recent tabs",
+      "type": "command",
+      "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
     },
     {
       "keys": "e",
@@ -300,13 +296,11 @@
     }
   ],
   "errorLens.delay": 1000,
-  "errorLens.enabledDiagnosticLevels": [
-    "error",
-    "warning"
-  ],
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
   "errorLens.messageEnabled": true,
   "errorLens.gutterIconSet": "squareRounded",
   "errorLens.gutterIconsEnabled": true,
   "errorLens.messageBackgroundMode": "message",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "search.searchOnType": false
 }

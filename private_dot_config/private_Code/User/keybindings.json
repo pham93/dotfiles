@@ -30,15 +30,16 @@
   },
   // navigate left
   {
-    "command": "workbench.action.focusSideBar",
-    "key": "ctrl+h",
-    "when": "activeGroupEditorIndex == 1 && sideBarVisible"
-  },
-  {
     "command": "workbench.action.focusNextGroup",
     "key": "ctrl+h",
     "when": "sideBarFocus"
   },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.action.focusNextGroup",
+    "when": "sideBarFocus"
+  },
+
   {
     "command": "workbench.action.focusPreviousGroup",
     "key": "ctrl+h",
@@ -178,5 +179,38 @@
     "key": "ctrl+c",
     "command": "editor.action.clipboardCopyAction",
     "when": "neovim.mode == insert && editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+]",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+shift+[",
+    "when": "sideBarFocus",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.view.debug"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "workbench.action.debug.nextConsole"
+  },
+  {
+    "key": "ctrl+5",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "workbench.actions.view.problems"
   }
 ]
