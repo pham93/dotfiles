@@ -79,7 +79,7 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
-  "apc.font.family": "GeistMono Nerd Font",
+  "apc.font.family": "JetBrainsMono Nerd Font",
   "apc.monospace.font.family": "JetBrainsMono Nerd Font",
   "apc.electron": {
     "titleBarStyle": "hidden"
@@ -125,7 +125,7 @@
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
-  "vscode-neovim.neovimExecutablePaths.linux": "/opt/nvim-linux64/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.linux": "nvim",
   "catppuccin-icons.hidesExplorerArrows": true,
   "animations.Active": "None",
   "animations.Enabled": true,
