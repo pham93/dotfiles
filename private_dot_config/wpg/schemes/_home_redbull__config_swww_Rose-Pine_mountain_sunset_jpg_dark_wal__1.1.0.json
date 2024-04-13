@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/redbull/.config/swww/Rose-Pine/mountain_sunset.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12081c",
+        "foreground": "#f1d0da",
+        "cursor": "#f1d0da"
+    },
+    "colors": {
+        "color0": "#12081c",
+        "color1": "#C47CA2",
+        "color2": "#9C82AE",
+        "color3": "#B58BAF",
+        "color4": "#C993B2",
+        "color5": "#DCA0BB",
+        "color6": "#D0A7C1",
+        "color7": "#f1d0da",
+        "color8": "#a89198",
+        "color9": "#C47CA2",
+        "color10": "#9C82AE",
+        "color11": "#B58BAF",
+        "color12": "#C993B2",
+        "color13": "#DCA0BB",
+        "color14": "#D0A7C1",
+        "color15": "#f1d0da"
+    }
+}

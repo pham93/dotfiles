@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/redbull/.config/swww/Rose-Pine/ferris_wheel.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c2442",
+        "foreground": "#b1bacb",
+        "cursor": "#b1bacb"
+    },
+    "colors": {
+        "color0": "#0c2442",
+        "color1": "#B157A3",
+        "color2": "#D15CAD",
+        "color3": "#DE60B4",
+        "color4": "#E666B9",
+        "color5": "#9B58CA",
+        "color6": "#EF75C1",
+        "color7": "#b1bacb",
+        "color8": "#7b828e",
+        "color9": "#B157A3",
+        "color10": "#D15CAD",
+        "color11": "#DE60B4",
+        "color12": "#E666B9",
+        "color13": "#9B58CA",
+        "color14": "#EF75C1",
+        "color15": "#b1bacb"
+    }
+}

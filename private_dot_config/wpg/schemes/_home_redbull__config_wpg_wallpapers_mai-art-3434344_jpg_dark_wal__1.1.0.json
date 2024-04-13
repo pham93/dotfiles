@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/redbull/.config/wpg/wallpapers/mai-art-3434344.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0E1A26",
+        "foreground": "#ffffd4",
+        "cursor": "#ffffd4"
+    },
+    "colors": {
+        "color0": "#0E1A26",
+        "color1": "#ED632F",
+        "color2": "#A65A45",
+        "color3": "#D48E42",
+        "color4": "#FB734F",
+        "color5": "#EC6555",
+        "color6": "#F79662",
+        "color7": "#f6dbb0",
+        "color8": "#1b324b",
+        "color9": "#ff782a",
+        "color10": "#e76c4a",
+        "color11": "#ffb943",
+        "color12": "#ff8851",
+        "color13": "#ff7259",
+        "color14": "#ffbc68",
+        "color15": "#ffffd4"
+    }
+}

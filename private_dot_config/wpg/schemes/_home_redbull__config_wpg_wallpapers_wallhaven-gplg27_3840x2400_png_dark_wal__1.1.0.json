@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/redbull/.config/wpg/wallpapers/wallhaven-gplg27_3840x2400.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0b0d1b",
+        "foreground": "#ffddf8",
+        "cursor": "#ffddf8"
+    },
+    "colors": {
+        "color0": "#0b0d1b",
+        "color1": "#D93161",
+        "color2": "#A04C72",
+        "color3": "#F79378",
+        "color4": "#38548A",
+        "color5": "#D75776",
+        "color6": "#5F5992",
+        "color7": "#d4a8bd",
+        "color8": "#181d3f",
+        "color9": "#ff2e76",
+        "color10": "#df5392",
+        "color11": "#ffb184",
+        "color12": "#3c69c0",
+        "color13": "#ff5d8f",
+        "color14": "#6f64cd",
+        "color15": "#ffddf8"
+    }
+}

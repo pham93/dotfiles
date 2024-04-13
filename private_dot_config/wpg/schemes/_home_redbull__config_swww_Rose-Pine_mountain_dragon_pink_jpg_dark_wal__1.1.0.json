@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/redbull/.config/swww/Rose-Pine/mountain_dragon_pink.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#16070e",
+        "foreground": "#e7d0db",
+        "cursor": "#e7d0db"
+    },
+    "colors": {
+        "color0": "#16070e",
+        "color1": "#7B5B80",
+        "color2": "#B85E8A",
+        "color3": "#CA6C98",
+        "color4": "#D36499",
+        "color5": "#D48EAF",
+        "color6": "#DDA1BD",
+        "color7": "#e7d0db",
+        "color8": "#a19199",
+        "color9": "#7B5B80",
+        "color10": "#B85E8A",
+        "color11": "#CA6C98",
+        "color12": "#D36499",
+        "color13": "#D48EAF",
+        "color14": "#DDA1BD",
+        "color15": "#e7d0db"
+    }
+}

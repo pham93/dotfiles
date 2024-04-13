@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/redbull/.config/swww/Rose-Pine/1341413.png",
+    "alpha": "100",
+    "special": {
+        "background": "#100e13",
+        "foreground": "#e3dbcd",
+        "cursor": "#e3dbcd"
+    },
+    "colors": {
+        "color0": "#100e13",
+        "color1": "#E16162",
+        "color2": "#64837C",
+        "color3": "#DB847B",
+        "color4": "#868D85",
+        "color5": "#EAA896",
+        "color6": "#C5BDA5",
+        "color7": "#e3dbcd",
+        "color8": "#9e998f",
+        "color9": "#E16162",
+        "color10": "#64837C",
+        "color11": "#DB847B",
+        "color12": "#868D85",
+        "color13": "#EAA896",
+        "color14": "#C5BDA5",
+        "color15": "#e3dbcd"
+    }
+}

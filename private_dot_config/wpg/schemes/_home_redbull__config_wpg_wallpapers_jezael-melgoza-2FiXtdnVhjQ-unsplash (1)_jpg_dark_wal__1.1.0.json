@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/redbull/.config/wpg/wallpapers/jezael-melgoza-2FiXtdnVhjQ-unsplash (1).jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#090110",
+        "foreground": "#ffddf7",
+        "cursor": "#ffddf7"
+    },
+    "colors": {
+        "color0": "#090110",
+        "color1": "#C85FA7",
+        "color2": "#9067C8",
+        "color3": "#A46DCE",
+        "color4": "#6f31ff",
+        "color5": "#D47AD3",
+        "color6": "#7857C5",
+        "color7": "#f0b9ce",
+        "color8": "#230142",
+        "color9": "#ff68e0",
+        "color10": "#b872ff",
+        "color11": "#d779ff",
+        "color12": "#8753f9",
+        "color13": "#ff88ff",
+        "color14": "#945eff",
+        "color15": "#ffddf7"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/redbull/.config/wpg/wallpapers/rain_world3.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a070a",
+        "foreground": "#fff5ff",
+        "cursor": "#fff5ff"
+    },
+    "colors": {
+        "color0": "#0a070a",
+        "color1": "#d683a2",
+        "color2": "#a76cb8",
+        "color3": "#8646b8",
+        "color4": "#8e45e8",
+        "color5": "#956aec",
+        "color6": "#5d35c6",
+        "color7": "#ffbeff",
+        "color8": "#812f81",
+        "color9": "#ff88be",
+        "color10": "#cb6eeb",
+        "color11": "#9d42e5",
+        "color12": "#a740ff",
+        "color13": "#af6aff",
+        "color14": "#622ef5",
+        "color15": "#fff5ff"
+    }
+}

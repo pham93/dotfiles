@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/redbull/.config/swww/Rose-Pine/rebellious_tower.png",
+    "alpha": "100",
+    "special": {
+        "background": "#070412",
+        "foreground": "#d2dae4",
+        "cursor": "#d2dae4"
+    },
+    "colors": {
+        "color0": "#070412",
+        "color1": "#365B85",
+        "color2": "#546E92",
+        "color3": "#BF6491",
+        "color4": "#718EAF",
+        "color5": "#9F9BB7",
+        "color6": "#9EB3CB",
+        "color7": "#d2dae4",
+        "color8": "#93989f",
+        "color9": "#365B85",
+        "color10": "#546E92",
+        "color11": "#BF6491",
+        "color12": "#718EAF",
+        "color13": "#9F9BB7",
+        "color14": "#9EB3CB",
+        "color15": "#d2dae4"
+    }
+}

@@ -1,0 +1,1 @@
+launch zsh -c "(cat $HOME/.config/wpg/sequences &) && tmux new-session -A -s terminal"

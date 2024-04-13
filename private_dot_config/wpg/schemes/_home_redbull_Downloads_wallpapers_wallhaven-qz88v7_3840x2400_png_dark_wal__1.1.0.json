@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/redbull/Downloads/wallpapers/wallhaven-qz88v7_3840x2400.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121112",
+        "foreground": "#f1ce9c",
+        "cursor": "#f1ce9c"
+    },
+    "colors": {
+        "color0": "#121112",
+        "color1": "#9B3427",
+        "color2": "#924B34",
+        "color3": "#AE5532",
+        "color4": "#C3623D",
+        "color5": "#D96533",
+        "color6": "#F29C4C",
+        "color7": "#f1ce9c",
+        "color8": "#a8906d",
+        "color9": "#9B3427",
+        "color10": "#924B34",
+        "color11": "#AE5532",
+        "color12": "#C3623D",
+        "color13": "#D96533",
+        "color14": "#F29C4C",
+        "color15": "#f1ce9c"
+    }
+}

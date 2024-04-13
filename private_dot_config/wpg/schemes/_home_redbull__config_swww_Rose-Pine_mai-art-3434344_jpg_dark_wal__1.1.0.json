@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/redbull/.config/swww/Rose-Pine/mai-art-3434344.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1A26",
+        "foreground": "#f6dbb0",
+        "cursor": "#f6dbb0"
+    },
+    "colors": {
+        "color0": "#0E1A26",
+        "color1": "#ED632F",
+        "color2": "#A65A45",
+        "color3": "#FB734F",
+        "color4": "#EC6555",
+        "color5": "#D48E42",
+        "color6": "#F79662",
+        "color7": "#f6dbb0",
+        "color8": "#ac997b",
+        "color9": "#ED632F",
+        "color10": "#A65A45",
+        "color11": "#FB734F",
+        "color12": "#EC6555",
+        "color13": "#D48E42",
+        "color14": "#F79662",
+        "color15": "#f6dbb0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/redbull/.config/swww/Frosted-Glass/cloudy_mountain.png",
+    "alpha": "100",
+    "special": {
+        "background": "#153346",
+        "foreground": "#dbeff6",
+        "cursor": "#dbeff6"
+    },
+    "colors": {
+        "color0": "#153346",
+        "color1": "#86A6BB",
+        "color2": "#8DB7CE",
+        "color3": "#8AC3DD",
+        "color4": "#99CCE3",
+        "color5": "#ACE9FE",
+        "color6": "#C5D9E4",
+        "color7": "#dbeff6",
+        "color8": "#99a7ac",
+        "color9": "#86A6BB",
+        "color10": "#8DB7CE",
+        "color11": "#8AC3DD",
+        "color12": "#99CCE3",
+        "color13": "#ACE9FE",
+        "color14": "#C5D9E4",
+        "color15": "#dbeff6"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/redbull/.config/swww/Rose-Pine/dark_purple_kimono.png",
+    "alpha": "100",
+    "special": {
+        "background": "#09070c",
+        "foreground": "#ea99bc",
+        "cursor": "#ea99bc"
+    },
+    "colors": {
+        "color0": "#09070c",
+        "color1": "#5F506F",
+        "color2": "#A22E69",
+        "color3": "#90527A",
+        "color4": "#5E7C8C",
+        "color5": "#F63886",
+        "color6": "#A55584",
+        "color7": "#ea99bc",
+        "color8": "#a36b83",
+        "color9": "#5F506F",
+        "color10": "#A22E69",
+        "color11": "#90527A",
+        "color12": "#5E7C8C",
+        "color13": "#F63886",
+        "color14": "#A55584",
+        "color15": "#ea99bc"
+    }
+}

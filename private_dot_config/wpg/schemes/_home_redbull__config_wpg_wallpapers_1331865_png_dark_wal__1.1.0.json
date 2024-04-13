@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/redbull/.config/wpg/wallpapers/1331865.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#182616",
+        "foreground": "#ffb0f8",
+        "cursor": "#ffb0f8"
+    },
+    "colors": {
+        "color0": "#182616",
+        "color1": "#58B79E",
+        "color2": "#57EC64",
+        "color3": "#9BC75E",
+        "color4": "#2B8092",
+        "color5": "#ca7ce2",
+        "color6": "#52A9BC",
+        "color7": "#C281B5",
+        "color8": "#2b4528",
+        "color9": "#60ffd5",
+        "color10": "#5cff70",
+        "color11": "#ccff67",
+        "color12": "#2baeca",
+        "color13": "#ff8aff",
+        "color14": "#59e6ff",
+        "color15": "#ffb0f8"
+    }
+}
