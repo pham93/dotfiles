@@ -71,15 +71,12 @@ Wall_Set()
     fi
 
     #? getting the real path as symlinks too glitch
-    swww img "$(readlink "${wallSet}")" --transition-type random
-
-    # --transition-bezier .43,1.19,1,.4 \
-    # --transition-type "$xtrans" \
-    # --transition-duration 0.7 \
-    # --transition-fps 60 \
-    # --invert-y \
-    # --transition-pos "$( hyprctl cursorpos )"    
-
+    # --transition-type random 
+    swww img "$(readlink "${wallSet}")" \
+    --transition-type "$xtrans" \
+    --transition-pos bottom-right \
+    --transition-duration 2
+    --transition-fps 60
 }
 
 

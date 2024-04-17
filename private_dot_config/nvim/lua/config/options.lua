@@ -3,3 +3,6 @@
 -- Add any additional options here
 --
 vim.opt.clipboard = ""
+vim.opt.termguicolors = true
+vim.opt.mousemoveevent = true
+vim.opt.relativenumber = true

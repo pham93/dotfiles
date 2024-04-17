@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/redbull/.config/wpg/wallpapers/firewatch.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#16011a",
+        "foreground": "#ffffff",
+        "cursor": "#ffffff"
+    },
+    "colors": {
+        "color0": "#16011a",
+        "color1": "#df88b1",
+        "color2": "#969696",
+        "color3": "#ac6a9e",
+        "color4": "#9e81ac",
+        "color5": "#cd749a",
+        "color6": "#b792c7",
+        "color7": "#ececec",
+        "color8": "#a5a1ae",
+        "color9": "#ff6574",
+        "color10": "#aea5ad",
+        "color11": "#d76ac5",
+        "color12": "#b564d5",
+        "color13": "#ff73b3",
+        "color14": "#ea87c0",
+        "color15": "#ffffff"
+    }
+}

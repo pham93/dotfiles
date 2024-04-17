@@ -3,13 +3,16 @@
 -- Add any additional keymaps here
 --
 if vim.g.vscode then
-  vim.cmd("nmap <leader>fc :e ~/.config/nvim/init.lua<cr>")
-  vim.keymap.set("n", "zz", [[<cmd>call VSCodeNotify('editor.toggleFold')<cr>]])
-  vim.keymap.set("n", "za", [[<cmd>call VSCodeNotify('editor.foldAll')<cr>]])
-  vim.keymap.set("n", "zA", [[<cmd>call VSCodeNotify('editor.unfoldAll')<cr>]])
-  vim.keymap.set("n", "<ESC>", [[<cmd>call VSCodeNotify('workbench.action.files.save')<cr>]])
+	vim.cmd("nmap <leader>fc :e ~/.config/nvim/init.lua<cr>")
+	vim.keymap.set("n", "zz", [[<cmd>call VSCodeNotify('editor.toggleFold')<cr>]])
+	vim.keymap.set("n", "za", [[<cmd>call VSCodeNotify('editor.foldAll')<cr>]])
+	vim.keymap.set("n", "zA", [[<cmd>call VSCodeNotify('editor.unfoldAll')<cr>]])
+else
+	vim.keymap.set("n", "<leader>e", [[<cmd> NvimTreeToggle<cr>]])
 end
 
 vim.keymap.set("i", "jk", "<ESC>", { silent = true })
 vim.keymap.set("n", ";", ",", { silent = true })
 vim.keymap.set("n", "'", ";", { silent = true })
+vim.keymap.set("n", "<leader>q", [[<cmd>:q<cr>]], { silent = true })
+vim.keymap.set("n", "<leader>qq", [[<cmd>:qa!<cr>]], { silent = true })

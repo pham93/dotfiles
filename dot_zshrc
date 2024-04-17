@@ -39,6 +39,8 @@ alias ts="tmux new-session -s"
 alias td="tmux detach"
 alias hyprctl="hyprctl --instance 0"
 alias cat="bat -p"
+alias cd="z"
+alias cdd="zi"
 
 
 
@@ -251,7 +253,8 @@ export NVM_DIR="$HOME/.nvm"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# zoxide
+eval "$(zoxide init zsh)"
+
 (cat $HOME/.config/wpg/sequences > /dev/null &)
-
-
 
